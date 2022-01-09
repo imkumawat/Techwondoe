@@ -59,19 +59,19 @@ docker
 ```sh
 docker-compose build
 ```
-![docker-compose-build](https://user-images.githubusercontent.com/86528693/148676720-6e764a87-144a-4d71-ba9a-546851e8bc86.PNG)
+![](images/docker-compose-build.PNG)
 - Running docker image
 ```sh
 docker-compose up
 ```
-![docker-compose-up](https://user-images.githubusercontent.com/86528693/148676754-6ce715fc-706c-4893-bb12-49457d872a4a.PNG)
+![](images/docker-compose-up.PNG)
 
 
 Now, open chrome browser and hit the swagger url
 
 http://localhost:5000/api-docs/
 
-![swaggerlogin](https://user-images.githubusercontent.com/86528693/148676816-a09c6a6c-eb42-4fb6-b490-daf2f679cf95.PNG)
+![](images/swaggerlogin.PNG)
 
 # Login credentials
 __Username:__ Techwondoe
@@ -80,7 +80,7 @@ __Password:__ Techwondoe@2022
 
 # Swagger UI
 
-![swaggerui](https://user-images.githubusercontent.com/86528693/148676945-f63b1d95-03cf-43a7-a489-100859a7e578.PNG)
+![](images/swaggerui.PNG)
 
 # Adding Authentication jwt token
 
@@ -126,6 +126,7 @@ Running the Server
 ```sh
 node src/server.js
 ```
+![](images/localserver.PNG)
 
 Now, open chrome browser and hit the swagger url
 
